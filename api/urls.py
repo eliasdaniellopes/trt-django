@@ -1,7 +1,7 @@
 
 from django.contrib import admin
 from django.urls import path, include
-from  core.views import RegistroViewSet
+from  registros.views import RegistroViewSet
 from rest_framework import routers
 
 router = routers.DefaultRouter()

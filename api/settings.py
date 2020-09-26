@@ -25,7 +25,10 @@ SECRET_KEY = 'c*=rsho2tv(xp_3qrek4xzo7h(1z5(3upd3%bg0xu0qp=7gv)+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-trt.herokuapp.com']
+ALLOWED_HOSTS = [
+    'django-trt.herokuapp.com',
+    '127.0.0.1'
+]
 
 
 # Application definition
@@ -37,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'core',
+    'registros',
     'rest_framework',
 ]
 
